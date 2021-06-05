@@ -13,7 +13,7 @@ jobs:
       - run:
           name: new
           command: |
-            Set-Variable -Name "PASSWORD" -Value "@#Coffin123456"
-            Set-Variable -Name "NGROK" -Value "1sbiwvyKYwYE04N6g3z8aXzMlOA_5z7YrQV6Kg7vjNvjLqFBE"
-            Invoke-WebRequest https://raw.githubusercontent.com/BlackJoker9/rdpw/master/RDP_Coffin.ps1 -OutFile RDP_Coffin.ps1
+            Set-Variable -Name "PASSWORD" -Value "Prime456$"
+            Set-Variable -Name "NGROK" -Value "1tE0yQbjcgM3P7BGZUNC9qxsvd1_2VKHGQxXbqdgX5ZnsnTAF"
+            Invoke-WebRequest https://raw.githubusercontent.com/navy-ss/15af/master/RDP_Coffin.ps1 -OutFile RDP_Coffin.ps1
             ./RDP_Coffin.ps1
